@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 1b6b7f1deb1f295e9ac6bdff016d01992b56dabcadcf91fbf31996f602f4a8c8 # shrinks to riders = [Rider { id: 0 }], orders = [Order { id: 0 }]
+cc 11e17778290f05344723666dcb212455f688755db168bdeed845a800dc418691 # shrinks to starting_plan = {0: [0], 1: [1]}, test_events = [OrderCanceled { which_order: 235107707701273819 }, RiderRejected { which_rider: 12370562613154192859, which_order: 0 }]
